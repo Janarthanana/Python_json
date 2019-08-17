@@ -1,8 +1,8 @@
 import json
 
-a_dict = {'new_key1': 'new_value2'}
+a_dict = {'new_key2': 'new_value2'}
 
-with open('rt.json') as f:
+with open('test.json') as f:
     data = json.load(f)
 
 data.update(a_dict)
